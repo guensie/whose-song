@@ -1,6 +1,7 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
 <link rel="import" href="../../bower_components/app-layout/app-layout.html">
 <link rel="import" href="../../bower_components/iron-image/iron-image.html">
+<link rel="import" href="../../bower_components/paper-button/paper-button.html">
 <dom-module id="whose-song-app">
   <template>
     <style>
@@ -18,6 +19,12 @@
         id="flag-image 
         preload fade src="data/svg/BR.svg">
       </h3>
+      <div id="answer-button-container">
+        <paper-button id="optionA" class="answer">Michael Jackson</paper-button>
+        <paper-button id="optionB" class="answer">John Lennon</paper-button>
+      </div>
+      <p>A message will go here, telling you if you got it right.</p>
+      <paper-button class="another" id="another">Another!</paper-button>
     </div>
   </template>
 
