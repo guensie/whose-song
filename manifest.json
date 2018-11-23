@@ -1,0 +1,7 @@
+{
+  "name": "whose-song",
+  "short_name": "whose-song",
+  "description": "Guess the singer by the song title.",
+  "start_url": "/",
+  "display": "standalone"
+}
